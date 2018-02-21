@@ -1,0 +1,32 @@
+h1{
+	color: #25c4f3
+}
+
+
+.mitabla{
+	border: solid;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.mitabla tr td{
+	border: solid;
+}
+
+.mitabla tr:nth-child(even){
+	background: silver;
+	padding: 0.5em;
+}
+
+
+.mitabla tr{
+	background: #000;
+	color: #fff;
+	transform: all linear 0.5s;
+}
+
+.mitabla tr:hover{
+	background: silver;
+	color: #000;
+	transform:  scale(2,2) rotate(3deg);
+}
